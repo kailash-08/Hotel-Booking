@@ -1,0 +1,17 @@
+#main{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+}
+.hotel{
+    height: 250px;
+    width: 250px;
+}
+.socialMedia{
+    height: 20px;
+    width: 22px;
+}
