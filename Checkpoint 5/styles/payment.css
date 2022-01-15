@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #e0e0e0;
+}
+#main{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+header{
+    background-color: rosybrown;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+}
+#hotel{
+    height: 500px;
+    width: 500px;
+}
+#image{
+    background-color: rgb(132,136,139);
+    height: 20%;
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#customer{
+    margin: 2%;
+}
+#tariff{
+    margin: 2%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1% 2% 1% 2%;
+}
+.socialMedia{
+    height: 20px;
+    width: 22px;
+}
+#copyright{
+    margin: 0px;
+}
+footer{
+    background-color: rosybrown;
+}

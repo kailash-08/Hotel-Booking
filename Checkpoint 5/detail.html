@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <link rel="stylesheet" href="styles\detail.css">
+</head>
+<body>
+<div id ="main">
+    <header>
+        <a href="index.html"><img id="logo" src="assests\images\logo.png" height="150px" width="200px" alt="logo"></a>
+        <a href="login.html" target="_self">Login</a>
+    </header>
+    <div>
+        <img id="hotel" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"><br>
+        <form action="payment.html" method="get" autocomplete="off">
+            <label for="count">Adults:</label>
+            <input type="number" min="1" id="count" name="count" required><br>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="from">From Date:</label>
+            <input type="date" id="from" name="from" required><br>
+            <label for="to">To Date:</label>
+            <input type="date" id="to" name="to" required><br>
+            <label for="total">Total:</label>
+            <input type="text" id="total" name="total" disabled><br>
+            <input type="submit" value="Book Now">
+        </form>
+        <div id="description">
+        <h2>Radisson Blu Hotel</h2>
+        <p>RATING</p><p>5 Star</p><p>AMENITIES</p>
+        <ul>
+            <li>Room service</li>
+            <li>Restaurant</li>
+            <li>Business center</li>
+            <li>Fitness center</li>
+            <li>Pool</li>
+        </ul>
+        <h5>DESCRIPTION</h5>
+        <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias natus ullam necessitatibus nostrum eum voluptatum sit officiis nisi tempora rem ipsam nemo molestiae, sed aspernatur adipisci impedit magni ratione magnam.</P>
+        </div>
+    </div>
+    <footer>
+        <a href="contact.html" target="_self">Contact Us</a><br>
+        <a class="socialMedia" href="https://www.facebook.com/" target="_blank"><img src="assests/images/facebook.png" height="20px" width="22px"></a>
+        <a class="socialMedia" href="https://www.instagram.com/" target="_blank"><img src="assests/images/instagram.png" height="20px" width="22px"></a>
+        <a class="socialMedia" href="https://twitter.com/" target="_blank"><img src="assests/images/twitter.png" height="20px" width="22px"></a>
+        <p id="copyright">&copy; 2020 ROOM SEARCH PVT.LTD</p>
+    </footer>
+</div>
+</body>
+</html>
