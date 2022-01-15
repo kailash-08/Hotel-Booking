@@ -1,0 +1,18 @@
+body{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+#main{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#loader{
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #444444;
+    width: 70px;
+    height: 70px;
+    margin: 20%;
+}
