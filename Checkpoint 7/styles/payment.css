@@ -1,0 +1,104 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #e0e0e0;
+}
+#main{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+header{
+    background-color: rosybrown;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+#login{
+    padding-right: 1%;
+    color: black;
+    text-decoration: none;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+}
+#hotel{
+    height: 270px;
+    width: 300px;
+}
+#column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    margin-top: 7%;
+}
+#image-div{
+    background-color: rgb(132,136,139);
+    display: flex;
+    max-height: 270px;
+    width: 50%;
+}
+#detail{
+    padding: 2%;
+}
+#pay-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0% 5%;
+    border: 1px solid black;
+    width: 90%;
+    margin: 2%;
+    background-color: rosybrown;
+    border-radius: 5px;
+    margin-bottom: 15%;
+}
+#pay-text{
+    color: black;
+    text-decoration: none;
+}
+.socialMedia{
+    height: 20px;
+    width: 22px;
+}
+footer{
+    background-color: rosybrown;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    bottom: 0;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+#contact{
+    color: black;
+    text-decoration: none;
+}
+#copy{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#copyright{
+    margin: 0%;
+}
+#social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
