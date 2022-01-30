@@ -1,0 +1,66 @@
+#container3, #booking-form {
+    padding: 1%;
+    text-align: center;
+    border: 1px solid black;
+    max-height: 400px;
+}
+#container3 {
+    margin-left: 2% ;
+    border-right: none;
+    flex-grow: 3;
+    max-width: 60%;
+}
+#booking-form {
+    margin-right: 2%;
+    flex-grow: 1;
+}
+#hotel-description {
+    margin: 2%;
+}
+#container1 {
+    margin-top:7%;
+    margin-bottom: 7%;
+}
+#container2 {
+    display: flex;
+    justify-content: start;
+    align-content: center;
+}
+.hotel-image {
+    max-height: 350px;
+}
+.outer {
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+#book-now {
+    margin-top: 5%;
+}
+.inner {
+    width: 60%;
+}
+.description-detail{
+    padding-bottom: 5%;
+}
+.image {
+    max-height: 350px;
+}
+.carousel-prev,
+.carousel-next {
+  height: 100px;
+  width: 100px;
+  background-image: none;
+}
+.carousel-next:after
+{
+  content: '>';
+  font-size: 55px;
+  color: rosybrown;
+}
+
+.carousel-prev:after {
+  content: '<';
+  font-size: 55px;
+  color: rosybrown;
+}
